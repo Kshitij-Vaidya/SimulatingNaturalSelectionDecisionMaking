@@ -35,5 +35,15 @@ git clone https://github.com/Kshitij-Vaidya/SimulatingNaturalSelectionDecisionMa
 cd SimulatingNaturalSelectionDecisionMaking
 ```
 
+The following files contain the classes defined to simulate the Players (Creatures) and the Game (Environment):
+```bash
+NormalGame.py
+Player.py
+```
+
+The `TestNormalGame.py` file contains a simple simulation code to run a Normal Form Game between two players whose attributes are randomly generated
+
+
+
 ## Contributing
 Contributions to this project are welcome! Please fork the repository, make your changes, and submit a pull request.
