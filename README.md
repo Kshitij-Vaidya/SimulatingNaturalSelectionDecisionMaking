@@ -37,7 +37,8 @@ cd SimulatingNaturalSelectionDecisionMaking
 
 The following files contain the classes defined to simulate the Players (Creatures) and the Game (Environment):
 
-`NormalGame.py` \\ 
+`NormalGame.py` 
+
 `Player.py`
 
 
