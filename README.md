@@ -26,7 +26,7 @@ Natural selection acts on the phenotype, the characteristics of an organism whic
 
 The simulation models a population of individuals who make decisions based on game theory principles. Each individual has a set of strategies for dealing with specific environmental scenarios. The success of these strategies affects their survival and reproductive success, simulating natural selection.
 
-## Getting Started
+## Content Details
 
 To run the simulation, you will need Python installed on your computer. Clone this repository, navigate to the project directory, and install the required dependencies:
 
@@ -35,14 +35,17 @@ git clone https://github.com/Kshitij-Vaidya/SimulatingNaturalSelectionDecisionMa
 cd SimulatingNaturalSelectionDecisionMaking
 ```
 
-The following files contain the classes defined to simulate the Players (Creatures) and the Game (Environment):
+### Simulating Normal Form Games
 
-`NormalGame.py` 
+The following files contain the classes defined to simulate the Players (Creatures) and the Game (Environment): 
 
 `Player.py`
 
+`NormalGame.py`
 
-The `TestNormalGame.py` file contains a simple simulation code to run a Normal Form Game between two players whose attributes are randomly generated
+The `TestNormalGame.py` file contains a simple simulation code to run a Normal Form Game between two players whose attributes are randomly generated. The functions defined within the `NormalFormGame` class allow to define the Payoff Matrix between two players whose attributes namely speed, size and strategy are randomly generated. 
+
+We can simulate a single round or a match till a winner is decided. This game simulation is the first step towards simulating more complicated natural environments with multiple players and strategies and also add attributes to the existing `Player` class to allow for more complex player interactions.
 
 
 
